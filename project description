@@ -1,0 +1,11 @@
+Opinion Mining and Sentiment Analysis is a Natural Language Processing (NLP) technique used to identify and 
+extract subjective information from textual data. It helps in determining the sentiment or emotion expressed 
+in a piece of text, such as whether a review is positive, negative, or neutral.
+
+With the rapid growth of e-commerce platforms and social media, a large volume of user-generated content is 
+produced daily in the form of reviews, comments, and feedback. Analyzing this data manually is difficult and 
+time-consuming. Therefore, automated sentiment analysis systems play a crucial role in understanding customer opinions and improving business decision-making.
+
+In this project, we perform opinion mining on customer reviews collected from an e-commerce platform (Flipkart).
+The system processes textual data using preprocessing techniques such as text cleaning, stopword removal, and vectorization. 
+A machine learning model is then used to classify the sentiment of the reviews into different categories.
