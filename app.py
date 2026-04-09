@@ -1,7 +1,16 @@
 import streamlit as st
 import pickle
 import re
+import nltk
+import os
+
+nltk_data_path = "/tmp/nltk_data"
+
+if not os.path.exists(nltk_data_path):
+    nltk.download('stopwords', download_dir=nltk_data_path)
+
 from nltk.corpus import stopwords
+nltk.data.path.append(nltk_data_path)
 
 # Load model
 model = pickle.load(open("model.pkl", "rb"))
